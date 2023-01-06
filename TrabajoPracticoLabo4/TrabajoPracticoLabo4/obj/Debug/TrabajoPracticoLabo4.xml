@@ -1,0 +1,358 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TrabajoPracticoLabo4
+</name>
+</assembly>
+<members>
+<member name="T:TrabajoPracticoLabo4.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:TrabajoPracticoLabo4.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:TrabajoPracticoLabo4.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:TrabajoPracticoLabo4.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:TrabajoPracticoLabo4.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:TrabajoPracticoLabo4.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._lblCardHeader">
+<summary>
+Control lblCardHeader.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._pnlMensajeRecuperar">
+<summary>
+Control pnlMensajeRecuperar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._lblMensajeRecuperar">
+<summary>
+Control lblMensajeRecuperar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._txtAño">
+<summary>
+Control txtAño.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._ddlMaterias">
+<summary>
+Control ddlMaterias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._btnRecuperar">
+<summary>
+Control btnRecuperar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._btnAgregar">
+<summary>
+Control btnAgregar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._btnLimpiar">
+<summary>
+Control btnLimpiar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._CompareValidator1">
+<summary>
+Control CompareValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._ValidationSummary1">
+<summary>
+Control ValidationSummary1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._pnlGV">
+<summary>
+Control pnlGV.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._gvMateriasMesas">
+<summary>
+Control gvMateriasMesas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._pnlAlta">
+<summary>
+Control pnlAlta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._pnlMensajeAlta">
+<summary>
+Control pnlMensajeAlta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._lblMensajeAlta">
+<summary>
+Control lblMensajeAlta.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._txtFechaExamen">
+<summary>
+Control txtFechaExamen.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._txtModifUsr">
+<summary>
+Control txtModifUsr.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._btnGrabar">
+<summary>
+Control btnGrabar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4._15633_alta_mesa._ValidationSummary2">
+<summary>
+Control ValidationSummary2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="T:TrabajoPracticoLabo4.dtsMesas">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TrabajoPracticoLabo4.dtsMesas.al_materias_mesasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TrabajoPracticoLabo4.dtsMesas.al_materias_mesasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TrabajoPracticoLabo4.dtsMesas.al_materias_mesasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TrabajoPracticoLabo4.dtsMesasTableAdapters.al_materias_mesasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TrabajoPracticoLabo4.dtsMesasTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TrabajoPracticoLabo4.dtsMesasTableAdapters.TableAdapterManager.UpdateUpdatedRows(TrabajoPracticoLabo4.dtsMesas,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TrabajoPracticoLabo4.dtsMesasTableAdapters.TableAdapterManager.UpdateInsertedRows(TrabajoPracticoLabo4.dtsMesas,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TrabajoPracticoLabo4.dtsMesasTableAdapters.TableAdapterManager.UpdateDeletedRows(TrabajoPracticoLabo4.dtsMesas,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TrabajoPracticoLabo4.dtsMesasTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TrabajoPracticoLabo4.dtsMesasTableAdapters.TableAdapterManager.UpdateAll(TrabajoPracticoLabo4.dtsMesas)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TrabajoPracticoLabo4.dtsMesasTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TrabajoPracticoLabo4.dtsMesasTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="F:TrabajoPracticoLabo4.Login._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4.Login._Login">
+<summary>
+Control Login.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4.PagMaestra._head">
+<summary>
+Control head.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4.PagMaestra._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4.PagMaestra._lnkCerrarSesion">
+<summary>
+Control lnkCerrarSesion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoPracticoLabo4.PagMaestra._ContentPlaceHolder1">
+<summary>
+Control ContentPlaceHolder1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>

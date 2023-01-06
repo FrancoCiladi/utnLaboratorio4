@@ -1,0 +1,71 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="PagMaestra.master.vb" Inherits="TrabajoPracticoLabo4.PagMaestra" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <title></title>
+    <style>
+        header {
+            background: #0080ff;
+            color: #ffffff;
+            padding: 15px;
+            margin: 0px;
+        }
+       
+        .footer {
+            /*pie de pagina*/
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 25px;
+            background-color: #0080ff;
+            color: white;
+            text-align: center;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <%--header de la pagina--%>
+            <header>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-8">
+                            <img src="UTN_logo.jpg" class="img-fluid" width="150" height="150"/>
+                        </div>
+                        <div class="col-4">
+                            <asp:LinkButton ID="lnkCerrarSesion" CssClass="btn btn-light float-right" runat="server">Cerrar Sesion</asp:LinkButton>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+
+
+
+            <div class="container-fluid mt-2">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+
+           <%-- pie de pagina--%>
+            <div class="footer">
+                <p>Trabajo Practico Labo 4 - Ciladi Franco</p>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>

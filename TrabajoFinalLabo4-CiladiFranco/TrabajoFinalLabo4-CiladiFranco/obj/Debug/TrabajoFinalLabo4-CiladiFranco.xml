@@ -1,0 +1,385 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TrabajoFinalLabo4-CiladiFranco
+</name>
+</assembly>
+<members>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:TrabajoFinalLabo4_CiladiFranco.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:TrabajoFinalLabo4_CiladiFranco.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:TrabajoFinalLabo4_CiladiFranco.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:TrabajoFinalLabo4_CiladiFranco.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:TrabajoFinalLabo4_CiladiFranco.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocio">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocio.adicionales_mensuales_socioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocio.adicionales_mensuales_socioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocio.adicionales_mensuales_socioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.adicionales_mensuales_socioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.TableAdapterManager.UpdateUpdatedRows(TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocio,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.TableAdapterManager.UpdateInsertedRows(TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocio,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.TableAdapterManager.UpdateDeletedRows(TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocio,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.TableAdapterManager.UpdateAll(TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocio)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:TrabajoFinalLabo4_CiladiFranco.dtsAdicionalesMensualesSocioTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._txtNroSocio">
+<summary>
+Control txtNroSocio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._btnBuscar">
+<summary>
+Control btnBuscar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._pnlError">
+<summary>
+Control pnlError.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._pnlAdicionales">
+<summary>
+Control pnlAdicionales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._lblNombreSocio">
+<summary>
+Control lblNombreSocio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._pnlMensaje">
+<summary>
+Control pnlMensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._lblMensaje">
+<summary>
+Control lblMensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._gvAdicionales">
+<summary>
+Control gvAdicionales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.socAdicionalesModificar._btnActualizar">
+<summary>
+Control btnActualizar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmConsultaSocios._txtApellidoSocio">
+<summary>
+Control txtApellidoSocio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmConsultaSocios._pnlListadoSocios">
+<summary>
+Control pnlListadoSocios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmConsultaSocios._gvSocios">
+<summary>
+Control gvSocios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._lnkDetalles">
+<summary>
+Control lnkDetalles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._lnkGrupoFamiliar">
+<summary>
+Control lnkGrupoFamiliar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._lnkAdicionales">
+<summary>
+Control lnkAdicionales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._pnlDetalles">
+<summary>
+Control pnlDetalles.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._txtApellidoNombre">
+<summary>
+Control txtApellidoNombre.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._txtNroDoc">
+<summary>
+Control txtNroDoc.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._txtFechaNacimiento">
+<summary>
+Control txtFechaNacimiento.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._txtCategoria">
+<summary>
+Control txtCategoria.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._txtDireccion">
+<summary>
+Control txtDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._txtCodPostal">
+<summary>
+Control txtCodPostal.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._txtTelefono">
+<summary>
+Control txtTelefono.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._txtMail">
+<summary>
+Control txtMail.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._pnlGrupoFamiliar">
+<summary>
+Control pnlGrupoFamiliar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._gvGrupoFamiliar">
+<summary>
+Control gvGrupoFamiliar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._pnlAdicionales">
+<summary>
+Control pnlAdicionales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.frmSocioDetalle._gvAdicionales">
+<summary>
+Control gvAdicionales.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.PaginaMaestra._head">
+<summary>
+Control head.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.PaginaMaestra._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:TrabajoFinalLabo4_CiladiFranco.PaginaMaestra._ContentPlaceHolder1">
+<summary>
+Control ContentPlaceHolder1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
